@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+    /* margin-right: 20px; */
+}
+nav .menu a{
+    text-decoration: none;
+    font-family: cursive;
+    color: #ff5aa0;
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+.banner{
+    /* background-image: url(../image/about-foodpanda-1920x539.jpeg); */
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner h1{
+    /* background-color: #ff5aa0; */
+    background: rgba(25,56,76,0.5);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 150px;
+    width: 40%;
+    margin: auto;
+}
+
+.news{
+    /* background-color: #ff5a9fd0; */
+    background: linear-gradient(to right, black,red,yellow);
+    
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.news marquee{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    text-shadow: 3px 3px 3px black;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.about{
+    
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px 50px;
+     
+      
+}
+
+.about h2{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 13px;
+    text-shadow: 2px 2px 2px;
+}
+
+.about p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: 15px;
+    margin-bottom: 12px;
+}
+
+.about button{
+
+    width: 225px;
+    height: 45px;
+    background: #ff5aa0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 45px;
+    font-size: 1rem;
+
+
+}
+
+.about button:hover{
+    background: linear-gradient(to right,yellow,black);
+}
+
+.Press{
+    background: url(../image/fp-contact-1-1920x539.jpeg);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    font-family: sans-serif;
+    
+    padding: 50px 50px;
+    
+}
+
+.Press h2{
+
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 13px;
+    text-shadow: 2px 2px 2px;
+    
+}
+
+.Press p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: 15px;
+    margin-bottom: 12px;
+}
